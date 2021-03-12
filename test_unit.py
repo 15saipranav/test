@@ -12,7 +12,6 @@ class Test(unittest.TestCase):
         assert obj.mul(3,3) , 9
     def test_div(self):
         obj = Application()
-        assert obj.div(3,3) , 1
+        assert obj.div(4,4) , 1
 if __name__ == "__main__":
     unittest.main()
-    print("Everything passed")
