@@ -9,8 +9,7 @@ class Test(unittest.TestCase):
         assert obj.sub(2,1) , 1
     def test_mul(self):
         obj = Application()
-        assert obj.mul(2,2) , 4
-
+        assert obj.mul(3,3) , 9
 if __name__ == "__main__":
     unittest.main()
     print("Everything passed")
